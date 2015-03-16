@@ -34,7 +34,9 @@ td{
 	text-align: center;
 	padding: 1.5em;
 }
-
+.tableBody{
+	text-align: left;
+}
 .wtfast{
 	font-size: 3em;
 	font-weight: bold;
@@ -46,7 +48,7 @@ td{
 }
 a{
 	text-decoration: none;
-	color: white;
+	color: rgb(200,200,200);
 	font-size: 1.85em;
 	padding: 1em;
 
@@ -61,7 +63,7 @@ a:hover{
 	margin: 1em;
 }
 .white{
-	color: white;
+	color: rgb(200,200,200);
 	font-size: 1.2em;
 	font-weight: bold;
 }
@@ -74,6 +76,7 @@ img{
 }
 .subTitleUnderline{
 	border-bottom: 15px solid black;
+	height: 0%;
 }
 .botNav{
 	font-size: 1.6em;
