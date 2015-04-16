@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
     <head>
         <title>WTFast Android App Online Help</title>
@@ -46,68 +46,68 @@
                                     </li>
                                     <ul>
                                         <li>
-                                            Graphing screen stays on.
+                                            Graphing screen now stays on
                                         </li>
                                         <li>
-                                            Connection lost notification.
+                                            Connection lost notification
                                         </li>
                                         <li>
-                                            Fullscreen graphing mode.
+                                            Fullscreen graphing mode
                                         </li>
                                         <li>
-                                            Landscape graphing mode.
+                                            Landscape graphing mode
                                         </li>
                                         <li>
-                                            Bandwidth averages displayed on graph while graphing averages.
+                                            Textual bandwidth averages are now displayed on the graph while graphing averages
                                         </li>
                                         <li>
-                                            X-axis now has time passing relative to the points.
+                                            X-axis now has time passing relative to the points
                                         </li>
                                         <li>
-                                            Multiple graphing options panel now stays open till all options are chosen.
+                                            Multiple graphing options panel now stays open until all options are chosen
                                         </li>
                                         <li>
-                                            The application will now poll bandwidth in the background and has a persistent notification of your bandwidth usage.
+                                            The application will now poll bandwidth in the background and has a persistent notification of your bandwidth usage
                                         </li>
                                     </ul>
                                 </ul>
                                 New Features
                                 <ul>
                                     <li>
-                                        The application now supports multiple phone and tablet resolutions.
+                                        The application now supports multiple phone and tablet resolutions
                                     </li>
                                     <li>
-                                        Users now have the ability to create profiles that can contain a name, ip, password, and default graphing interface.
+                                        Users now have the ability to create profiles that can contain a name, ip, password, and default graphing interface
                                     </li>
                                     <li>
-                                        There is an About menu on the main screen of the app which provides information about the version of the app being used as well as information on WTFast and the developers of the app.
+                                        There is an About menu on the main screen of the app which provides information about the version of the app being used as well as information on WTFast and the developers of the app
                                     </li>
                                 </ul>
                                 Bug Fixes
                                 <ul>
                                     <li>
-                                        Graphing back Button now works.
+                                        Graphing back button now works
                                     </li>
                                     <li>
-                                        Graphing in landscape mode is now full supported on multiple resolutions.
+                                        Graphing in landscape mode is now fully supported on multiple resolutions
                                     </li>
                                 </ul>
                                 Known bugs and limitations
                                 <ul>
                                     <li>
-                                        It is possible that the current profile may be disconnected after rebooting the router from the app.
+                                        It is possible that the current profile may be disconnected after rebooting the router from the app
                                     </li>
                                     <li>
-                                        When leaving full screen the interface label may be covered slightly depending on the resolution of the device.
+                                        When leaving full screen the interface label may be covered slightly depending on the resolution of the device
                                     </li>
                                     <li>
-                                        Occasionally two pop-ups may be displayed on a network failure during graphing.
+                                        Occasionally two pop-ups may be displayed on a network failure during graphing
                                     </li>
                                     <li>
-                                        Cannot Deselect a Profile
+                                        Cannot deselect a profile
                                     </li>
                                     <li>
-                                        Deletion of Loaded Profile Does Not Unload Profile
+                                        Deletion of a loaded profile does not unload the profile
                                     </li>
                                 </ul>
                             </span>
@@ -120,25 +120,25 @@
                                 <br>
                                 About This Release
                                 <ul>
-                                    <li>This release contains a more complete implementation of the communication engine when compared with previous releases. Also contains the first iteration of the bandwidth graph.</li>
+                                    <li>This release contains a more complete implementation of the communication engine when compared with previous releases and contains the second iteration of the bandwidth graph.</li>
                                 </ul>
                                 Updated Features
                                 <ul>
                                     <li>The bandwidth graph now graphs real data from the router</li>
                                     <li>The graph will scale to allow for a better view of the graphed data</li>
                                     <li>Users now have the ability to pause and resume the bandwidth graph</li>
-                                    <li>Before graphing starts, the user is asked to select which of the router interfaces they would like to graph the bandwidth of</li>
+                                    <li>Before graphing starts, the user is asked to select from the router interfaces they would like to graph</li>
                                 </ul>
                                 New Features
                                 <ul>
                                     <li>New app icon</li>
                                     <li>The app is now licensed under the MIT license</li>
-                                    <li>When the user reboots the router with the app, after the router has been rebooted a notification will be sent to the user upon successful reconnection to the router or on error.</li>
+                                    <li>After the user reboots the router with the app a notification will be sent to the user upon successful reconnection to the router or on error.</li>
                                     <li>The user now has the ability to temporarily save the password of their router for the duration the app is running</li>
                                 </ul>
                                 Known Bugs and Limitations
                                 <ul>
-                                    <li>It is possible to quickly press the Set IP button multiple times and have multiple dialog boxes open up</li>
+                                    <li>It is possible to quickly press the buttons multiple times and have multiple dialog boxes open up</li>
                                 </ul>
                             </span>
                         </td>
@@ -158,17 +158,16 @@
                                 </ul>
                                 New Features
                                 <ul>
-                                    <li>The communication engine has been implemented which allows the app to communicated with the router using SNMP and SSH protocols.</li>
-                                    <li>The router can now be rebooted from the app.</li>
-                                    <li>View Information of Devices on Router.</li>
+                                    <li>The communication engine has been implemented which allows the app to communicated with the router using SNMP and SSH protocols</li>
+                                    <li>The router can now be rebooted from the app</li>
                                     <li>Information can be viewed about devices with active DHCP leases from the router. The information given includes the device name, IP address, and MAC address.</li>
                                     <li>Information on how long the router has been on for can be viewed.</li>
                                     <li>The basic bandwidth graph has been implemented. Currently it only graphs dummy data generated by random numbers. In a future release it will be made to graph real-time bandwidth data from the router.</li>
                                 </ul>
                                 Known Bugs and Limitations
                                 <ul>
-                                    <li>Bandwidth Graph only graphs dummy data</li>
-                                    <li>Bandwidth Graph crashes on occasion</li>
+                                    <li>Bandwidth graph only graphs dummy data</li>
+                                    <li>Bandwidth graph crashes on occasion</li>
                                     <li>App will hang on occasion, threading issue</li>
                                     <li>App crashes when an IP of 255.255.255.255 is entered</li>
                                 </ul>
